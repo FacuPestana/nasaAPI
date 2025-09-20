@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to bottom, #000000, #001f3d);
+    color: #fff;
+    font-family: cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#div {
+    border-radius: 5%;
+    background: #fff;
+    padding: 3vh
+}
+
+button {
+    background-color: #02386e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    gap: 15px;
+}
+
+#text {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 20px;
+}
+
+#limite {
+color:#000000;
+display: flex;
+justify-content: center;
+}
+
+#div2{
+    text-align: center;
+}
+
+#img {
+  display: block;       
+  margin: 20px auto;    
+  max-width: 90%;       
+  height: auto;         
+  border-radius: 15px;   
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #00ccff;
+    transition: 0.3s;
+}
+
+#title:hover {
+    text-decoration: underline;
+    transition: 1s;
+}   
+
+::selection{
+    background-color:#02386e;
+    color: #fff;
+}

@@ -1,0 +1,87 @@
+  body {
+      background: linear-gradient(to bottom, #000000, #001f3d);
+      color: #fff;
+      font-family: cursive;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+  }
+
+  #divpresentacion {
+      max-width: 900px;
+  }
+
+  #divpresentacion h1,
+  #divpresentacion p {
+      margin-bottom: 20px;
+  }
+
+  #div {
+      border-radius: 5%;
+      background: #fff;
+      padding: 3vh;
+      color: black;
+      text-align: left;
+  }
+
+  #div h2 {
+      text-align: center;
+  }
+
+  #div ul {
+      margin-left: 20px;
+  }
+#div img.nasa-image {
+    display: block;
+    margin: 20px auto;  
+    width: 650px;    
+    border-radius: 10px;
+}
+
+
+  button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      background-color: #0b3d91;
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  button:hover {
+      transform: scale(1.05);
+      background-color: #00ccff;
+      transition: 0.3s;
+  }
+
+  h6 {
+      margin-top: 50px;
+      color: #cccccc;
+  }
+
+  #P3{
+    display: block;
+    margin: 20px auto;  
+    width: 500px;    
+    border-radius: 10px;
+  }
+
+  #wikiNasa {
+      color: #0b3d91;
+      text-decoration:wavy underline;
+  }
+
+#nasalogo {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease; 
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasa API</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+<body>
+
+  <h1 id="title">Nasa</h1>
+  <h6 id="deco">esperando petición*</h6>
+  <h1 id="text"><u></u></h1>
+
+  <div id="div">
+    <p id='url'></p>
+    <img src="" id="img" width="500" style="display:none;">
+    <iframe id="video" width="560" height="315" frameborder="0" allowfullscreen style="display:none;"></iframe>
+    <br>
+
+    <div id="botones">
+      <button id="btn1">Foto anterior</button>
+      <button id="btn3">Foto siguiente</button>
+      <br>
+      <button id="btn2">Foto del día</button>
+
+      <button id="btnSuerte">¡Probar suerte!</button>
+    </div>
+
+    <div id="div2">
+      <input type="date" id="fechaInput">
+      <button id="btnIr">Ir a fecha</button>
+    </div>
+
+    <h6 id="limite">Solo datos desde => <u> 20 de junio de 1995</u></h6>
+    <h6 id="limite">¡¡También toma videos!!</h6>
+  </div>
+
+  <h6>by: Facu Pestana</h6>
+<button onclick="window.location.href='index.html'">Volver a la presentación</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
